@@ -118,7 +118,7 @@ npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
-You can deploy this project using: github, VS Code
+You can deploy this project using: GitHub, VS Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +149,7 @@ You can deploy this project using: github, VS Code
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Improving the outlook by implementing the responsive design**
-- [ ] **Styling the hamburger botton**
+- [ ] **Styling the hamburger button**
 - [ ] **Adding javascript to create our project more functional**
 - [ ] **Details popup window**
 - [ ] **Validate contact form**
@@ -170,7 +170,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thanks microverse team, github team and my coding partners, who contributed towards the completion of this task.
+> I would like to thank the Microverse team, the GitHub team, and my coding partners, who contributed towards the completion of this task.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
