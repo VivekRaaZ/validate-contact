@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivek Raj</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <header>
+        <a href="#">
+          <h2 class="logo">Vivek</h2>
+        </a>
+        <nav>
+        <ul>
+          <li>
+            <a href="#Portifolio">Portifolio</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+        </nav>
+        <nav class="burger" >
+          <img src="./image/burger.png" alt="Hamburger Menu" />
+        </nav>
+      </header>
+      
+      <section class="containerBg">
+        <div class="wrapper">
+          <h1>
+            I’m Vivek Raj.<br />
+              Glad to see you!
+          </h1>
+          <p class="info">
+            I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+          </p>
+          <h2 class="connect">LET'S CONNECT</h2>
+        </div>
+      
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/BossVivekRaj">
+              <img src="./image/twitter.png" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/vivek-raj-a78b92256/">
+              <img src="./image/linkedin.png" alt="LinkedIn" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <a href="https://medium.com/">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/VivekRaaZ">
+              <img src="./image/git.png" alt="GitHub" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.angellist.com/">
+              <img src="./image/peace.png" alt="Peace" />
+            </a>
+          </li>
+        </ul>
+      </section>
+            
+      <section class="works" id="Portifolio">
+        
+      </section>
+
+      <section class="about" id="About">
+        <div class="aboutContent">
+          <div class="leftBlock">
+            <h3>About Myself</h3>
+            <p>Hello I am a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <h2>Let's connect</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/VivekRaaZ">
+                  <img src="./image/git.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/vivek-raj-a78b92256/">
+                  <img src="./image/linkedin.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.angellist.com/">
+                  <img src="./image/peace.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/BossVivekRaj">
+                  <img src="./image/twitter.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/">
+                  <img src="./image/medium.png" alt="">
+                </a>
+              </li>
+            </ul>
+            
+            <button class="project-button" type="button">
+              <span class="button-content">Get my resume</span>
+            </button>
+          </div>
+                
+        <ul class="language-container">
+          <li class="">
+            <li class="title">
+              <h4 class="details">Languages</h4>
+              <img src="./image/down.png" alt="">
+            </li>
+            <ul class="languages">
+              <li class="list">
+                <img src="./image/script.png" alt="">
+                <p>JavaScript</p>
+              </li>
+              <li class="list">
+                <img src="./image/index.png" alt="">
+                <p>HTML</p>
+              </li>
+              <li class="list">
+                <img src="./image/css3.png" alt="">
+                <p>CSS</p>
+              </li>
+            </ul>
+          </li>
+          <li class="title">
+            <h4 class="details">Frameworks</h4>
+            <img src="./image/left.png" alt="">
+          </li>
+          <li class="title">
+            <h4 class="details">Skills</h4>
+            <img src="./image/left.png" alt="">
+          </li>
+        </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="Contact">
+        <div class="contactContainer">
+          <h2>Contact me</h2>
+          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+            I’d love to help with it!
+          </p>
+          <form class="contact-form" action="https://formspree.io/f/xaygnodk" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" maxlength="30" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" maxlength="500" required></textarea>
+            <button type="submit" id="submit-btn">Get in touch</button>
+        </form>
+        
+
+
+        </div>
+      </section>
+      
+      <div class="nav" id="menus">
+        <button class="close-btn">
+          <img src="./image/Cancel.png" alt="">
+        </button>
+        <ul>
+          <li onclick="hideNav()">
+            <a href="#Portifolio">Portifolio</a>
+          </li>
+          <li onclick="hideNav()">
+            <a href="#About">About</a>
+            </li>
+          <li onclick="hideNav()">
+            <a href="#Contact">Contact</li>
+        </ul>
+      </div>
+
+      <section class="modal hidden">
+       
+      </section>
+
+      <script src="javascript.js"></script>
+  </body>
+</html>
