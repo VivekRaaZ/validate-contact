@@ -141,7 +141,7 @@ You can deploy this project using: GitHub, VS Code
 👤 José De La Rosa
 
 - GitHub: [@jrraul4](https://github.com/jrraul4)
-- Twitter: [@joserauldelaro](https://twitter.com/joserauldelaro1)
+- Twitter: [@joserauldelaro1](https://twitter.com/joserauldelaro1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jose-raul-de-la-rosa-98aa70265/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
