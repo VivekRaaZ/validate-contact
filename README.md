@@ -89,7 +89,7 @@ Clone this repository to your desired folder:-
 Run this commands:
 ```sh
 cd my-folder
-git clone git@github.com:VivekRaaZ/popup-window.git
+git clone git@github.com:VivekRaaZ/validate-contact.git
 ```
 
 ### Install
