@@ -165,6 +165,15 @@ if (seeProjectButtons) {
       modal.classList.remove('hidden');
       modal.innerHTML = modalHtml;
 
+      modal.addEventListener('click', () => {
+        modal.classList.add('hidden');
+      });
+
+      const modalContainer = document.querySelector('modal-container');
+      modalContainer.addEventListener('click', () => {
+        modal.classList.remove('hidden');
+      });
+
       const closePopup = document.querySelector('.closePopup');
       closePopup.addEventListener('click', () => {
         modal.classList.add('hidden');
